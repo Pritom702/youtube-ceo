@@ -1,3 +1,6 @@
+# raw competitor/QC video downloads (keep the .jpg contact sheets + .md analysis)
+reviews/**/*.mp4
+reviews/_pepe_top.mp4
 # junk
 Thumbs.db
 Desktop.ini

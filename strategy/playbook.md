@@ -27,6 +27,22 @@ Remove tactics that stop working. Cite the evidence.
 - Mr.GHCLIPS: coach emotional stories (22K/18K) + strength records (18.9K/14.2K).
 - Real Voice or Autotune: legendary vocalists (Freddie/Whitney tier).
 
+## THE ranking format spec (from RankZilla23 / PepeRanker teardown)
+Full detail: `../research/HOW_RANKING_SHORTS_WORK.md`. Non-negotiable:
+- **ONE oddly-specific escalating clip + fake rank overlay** — NOT a 6-clip stitch.
+- **Burned title:** "Ranking [ADJ-RED] [TOPIC-YELLOW] Moments" (white "Ranking").
+- **Rank rail 1–6/7** filling with **scene-specific witty labels + emoji** as the clip
+  plays; best/worst held for last. Sometimes numeric ("15%", "-$140").
+- **Metadata title:** "DON'T CHECK THE SOUND 😭😭".
+- **Niche:** oddly-specific / absurd / ASMR (Chicken Screaming, Deep Sea Hunting,
+  Toilet Design, Muscle Cramp...). ~15–30s.
+- **Music channel:** solid YELLOW bg + "No Autotune VS Autotune" + rank rail with
+  numeric scores (green/red) + recognizable artist + "Who Sings Better?" metadata.
+
+## Pipeline rebuild required
+Current RankZilla pipeline = wrong mechanic (6 scraped clips + generic labels). Must
+become: one curated clip in → brand title + witty escalating rank overlay out.
+
 ## Packaging rules (from failures)
 - Every title carries a real ranking keyword. NO duplicate "DON'T CHECK THE SOUND".
 - Ranking videos require a **scene-specific `*_labels.tsv`** — never ship generic

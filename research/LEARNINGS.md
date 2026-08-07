@@ -6,6 +6,28 @@ already here — build on it.
 
 ---
 
+## 2026-08-08 — DEFINITIVE: how ranking shorts work (3 competitors reverse-engineered)
+Studied top-10 shorts of @RankZilla23 (399M/238M/102M), @PepeRanker (139M/41M/38M),
+@VoiceVsAutotune (36M/24M/13M). Full teardown: `HOW_RANKING_SHORTS_WORK.md`.
+- **THE format = ONE continuous oddly-specific clip + a fake ranking overlay** that
+  fills with witty scene-specific labels as it plays, best held for last. **NOT a
+  6-clip compilation.** Our pipeline builds the wrong mechanic — this is THE fix.
+- **Title template (burned, top):** "Ranking [ADJ-RED] [TOPIC-YELLOW] Moments",
+  white "Ranking". Identical every upload = brand.
+- **CORRECTION to my earlier lesson:** "DON'T CHECK THE SOUND 😭😭" is NOT a bad
+  duplicate title — it's the PROVEN metadata hook used by ALL three giants on nearly
+  every video (dares you to unmute → sound-on + comments). Two-title system: metadata
+  bait + burned on-screen topic. Keep using it.
+- **Labels must be scene-specific + witty + emoji** ("Almost died 😱", "R.I.P phone
+  😭", "The burn 😖", "-$140", "15%"). Generic fallbacks ("Nailed it") = death.
+- **Niches are oddly-specific/absurd/ASMR**, not generic "funny fails": Chicken
+  Screaming, Toilet Design, Deep Sea Hunting, Physics Glitch, Muscle Cramp, Cologne
+  Atomizers, Bad Day. Weird = curiosity = click.
+- **Tight ~15–30s.** RankZilla23 is the originator; PepeRanker cloned him exactly.
+- **Music (VoiceVsAutotune):** bold solid YELLOW bg, "No Autotune VS Autotune" title,
+  rank rail + numeric SCORES (green/red), often ONE artist, recognizable artists,
+  "Who Sings Better?" metadata. Our Real Voice channel lacks the bg + scores.
+
 ## 2026-08-08 — First real analytics (all 3 channels) → hard lessons
 Data: `analytics/2026-08-08_all_channels.md`.
 - **Niche coherence beats variety (biggest lever).** Ranked Chaos dumped glow-ups,
@@ -23,8 +45,10 @@ Data: `analytics/2026-08-08_all_channels.md`.
 - **Real Voice or Autotune has the best floor (every video 1.8–6K, zero flops) but
   only 6 videos.** Safest compounding bet — scale volume; legends (Freddie 6K,
   Whitney) overperform. Lead with legendary vocalists.
-- **Packaging failure:** 8+ Ranked Chaos videos share the identical title "DON'T
-  CHECK THE SOUND 😭😭" with no keyword. Every title needs a real ranking keyword.
+- **Packaging note (REVISED same day):** the identical "DON'T CHECK THE SOUND" title
+  is actually the proven metadata hook (see the competitor teardown above) — the real
+  gap is the FORMAT behind it (6-clip stitch vs one-clip overlay) and the burned
+  on-screen topic title, not the metadata title.
 - **Pipeline QC gap:** generic fallback rank labels ship when no scene-specific
   labels TSV exists. Require a `*_labels.tsv` (scene-specific) before approval.
 
