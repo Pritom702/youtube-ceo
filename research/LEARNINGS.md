@@ -6,6 +6,17 @@ already here — build on it.
 
 ---
 
+## 2026-08-08 — First research pass (trends)
+- 2026 Shorts reward **fast comprehension + rewatch loops + instantly-recognizable
+  formats**. Build every video to be understood in 1s and re-watched.
+- **Comedy = highest virality**; **relatable ("this is literally me")** and
+  **transformation/glow-up** spread fastest. Proven shells: Before vs After, POV,
+  Myth Busting, Ranking, Challenge Variations.
+- **Lane assignment locked for testing:** Ranked Chaos = comedy/fails ranking;
+  Channel 3 = transformation/glow-up ranking (own lane, provisional until named).
+- **Kick sourcing:** track daily top clips at streamscharts.com/clips?platform=kick
+  and kickcharts.net/clips; cut clutch feats / big reactions / drama.
+
 ## 2026-08-08 — Setup baseline
 - **Established the operating system.** Two pipelines, three channels, one CEO.
   Brief → generate → submit → review → verdict → learn loop is now mandatory.
