@@ -5,8 +5,13 @@
   vocal vs. the autotuned/studio version, letting viewers judge. Music-reaction /
   guessing format. (Engine: `make_autotune.py`, `separate_vocals.py`,
   `align_vocals.py`; ref: KITSCHKRIEG real-voice-vs-autotune video in `Ref videos`.)
-- **Format:** vertical, A/B vocal reveal (raw vs autotuned), captioned, a "which is
-  real?" hook, payoff on the reveal.
+- **Format (matches @VoiceVsAutotune EXACTLY, implemented 2026-08-08):**
+  - Solid **YELLOW** brand background (footage in a panel below a yellow title band).
+  - Title lockup: "**No Autotune**"(teal) "VS"(white) "**Autotune**"(red).
+  - Rank rail 1–5: artist + song + **numeric score green (≥7/10) / red (<7)**.
+  - Metadata YouTube title: **"Who Sings Better? No Autotune VS Autotune"**.
+  - A/B reveal (raw vs autotuned), best/#1 held last. Engine: `make_autotune.py`
+    (render `style="autotune"`). Competitor teardown: `../research/competitors/voicevsautotune.md`.
 
 ## 90-day target
 10,000,000 views + 1,000 subs by ~2026-10-24. See `../strategy/north_star.md`.
