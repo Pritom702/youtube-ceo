@@ -43,6 +43,12 @@ Full detail: `../research/HOW_RANKING_SHORTS_WORK.md`. Non-negotiable:
 Current RankZilla pipeline = wrong mechanic (6 scraped clips + generic labels). Must
 become: one curated clip in → brand title + witty escalating rank overlay out.
 
+## Clip sourcing rules (owner preferences — HARD)
+- **NO Indian-origin clips** (Hindi/Urdu captions, Devanagari, ₹, Indian water parks
+  like Wet'n'Joy/Aquamagica/Imagica, Indian places/handles). Filter by caption AND by
+  visual check of the contact sheet. Bake into `fetch.py` where possible.
+- Prefer clips WITHOUT baked-in source captions/watermarks.
+
 ## Packaging rules (from failures)
 - Every title carries a real ranking keyword. NO duplicate "DON'T CHECK THE SOUND".
 - Ranking videos require a **scene-specific `*_labels.tsv`** — never ship generic
