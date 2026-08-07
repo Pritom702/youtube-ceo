@@ -4,7 +4,24 @@
 - **Invoke:** `/ranking-short` (or "make today's video")
 - **Feeds:** Channel 2 (Ranked Chaos) and Channel 3 (second ranking channel)
 
-## Run it
+## ⭐ NEW correct mechanic — `make_oneclip.py` (use this for Ranked Chaos)
+The viral format is **ONE oddly-specific clip + a fake ranking overlay** (see
+`../research/HOW_RANKING_SHORTS_WORK.md`), NOT a 6-clip stitch. New orchestrator:
+```bash
+cd "T:\Youtube Shorts 2\ranking_pipeline"
+PYTHONUTF8=1 python make_oneclip.py --clip <file-or-url> \
+  --adj Scariest --subject "Slide Drop" --noun Moments \
+  --labels "Looks fun|Wait… glass floor?|Knees locked|No way back|DROPPED" --start 0 --end 28
+```
+Reuses render.py's title/rail/CFR. Metadata title auto-set to "DON'T CHECK THE SOUND
+😭😭"; burned title = "Ranking <adj> <subject> <noun>". Labels worst→best (last=#1
+climax). Validated 2026-08-08 (see `../reviews/2026-08-08_oneclip_test_slide_drop.md`).
+TODO: emoji-capable label font; per-beat reveal timing.
+
+The old `make_short.py` (6-clip compilation) is deprecated for virality — keep only
+for legacy/compat.
+
+## Run it (legacy 6-clip — deprecated)
 ```bash
 cd "T:\Youtube Shorts 2\ranking_pipeline"
 python -u make_short.py "Ranking Funniest Dog Moments" --max-total 42
