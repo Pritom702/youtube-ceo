@@ -26,13 +26,13 @@ within 90 days of its start, so each gets monetized.**
 
 | # | Channel | Niche | Pipeline | Home |
 |---|---------|-------|----------|------|
-| 1 | **Larry Wheels** | Kick-streamer viral moments (faceless clips) | Pipeline 1 | `T:\Youtube Shorts` |
-| 2 | **Ranked Chaos** | Viral ranking / fails / chaos compilations (RankZilla format) | Pipeline 2 | `T:\Youtube Shorts 2` |
-| 3 | **[Ranking Ch. 3 — CONFIRM NAME]** | Second ranking niche (e.g. glow-ups / fragrance / music-autotune) | Pipeline 2 | `T:\Youtube Shorts 2` |
+| 1 | **Mr.GHCLIPS** | Kick-streamer viral moments, faceless clips (Larry Wheels + other streamers) | Pipeline 1 (`/kick-shorts`) | `T:\Youtube Shorts` |
+| 2 | **Ranked Chaos** | Viral ranking / fails / chaos compilations (RankZilla format) | Pipeline 2 (`/ranking-short`) | `T:\Youtube Shorts 2` |
+| 3 | **Real Voice or Autotune** | Music: raw vocal vs autotuned A/B "which is real?" (NOT ranking) | Pipeline 2 (`make_autotune.py`) | `T:\Youtube Shorts 2` |
 
 Full dossiers: `channels/`. Pipeline mechanics: `pipelines/`.
-> ⚠️ Channel 3's exact name, handle, and locked niche need the owner to confirm.
-> Until then I treat it as a distinct RankZilla channel with its own topic lane.
+> Channel 3 is a **music** format, not a ranking channel — never brief it as a
+> fails ranking. Confirm channel handles/URLs when convenient.
 
 ## 3. Chain of command (how the pipelines obey me)
 

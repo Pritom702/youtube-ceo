@@ -6,6 +6,28 @@ already here — build on it.
 
 ---
 
+## 2026-08-08 — First real analytics (all 3 channels) → hard lessons
+Data: `analytics/2026-08-08_all_channels.md`.
+- **Niche coherence beats variety (biggest lever).** Ranked Chaos dumped glow-ups,
+  pressure washing, autotune, fragrance, "weight on planets", AI tools into one
+  channel → median stuck at 1–3K despite two 24K+ hits. A coherent channel builds
+  an audience; a grab-bag can't. LOCK each channel to ONE lane.
+- **Proven winners must be serialized, not abandoned.** Ranked Chaos: pranks 27.7K,
+  waterslide 24.5K — yet only 1 prank Part 2 exists and no waterslide Part 2. Part-2
+  every winner immediately; that's also the subscribe reason.
+- **Gym fails is a LOSER on Ranked Chaos (1.7K).** Stop making them. (Directly
+  caused today's Video 1 REVISE.)
+- **Mr.GHCLIPS winning lane = strength feats + emotional coach/mentor stories +
+  Larry being humbled (10–22K).** Losing lane = political skits (Zohran, ~0.1–1.8K)
+  and generic celeb interviews. Feed the winners, cut the skits.
+- **Real Voice or Autotune has the best floor (every video 1.8–6K, zero flops) but
+  only 6 videos.** Safest compounding bet — scale volume; legends (Freddie 6K,
+  Whitney) overperform. Lead with legendary vocalists.
+- **Packaging failure:** 8+ Ranked Chaos videos share the identical title "DON'T
+  CHECK THE SOUND 😭😭" with no keyword. Every title needs a real ranking keyword.
+- **Pipeline QC gap:** generic fallback rank labels ship when no scene-specific
+  labels TSV exists. Require a `*_labels.tsv` (scene-specific) before approval.
+
 ## 2026-08-08 — First research pass (trends)
 - 2026 Shorts reward **fast comprehension + rewatch loops + instantly-recognizable
   formats**. Build every video to be understood in 1s and re-watched.

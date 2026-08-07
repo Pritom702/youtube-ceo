@@ -1,8 +1,9 @@
-# Channel 1 — Larry Wheels
+# Channel 1 — Mr.GHCLIPS
 
 - **Pipeline:** 1 — `T:\Youtube Shorts` (`/kick-shorts`)
-- **Niche:** Faceless viral moments cut from Kick.com streamer VODs (Larry Wheels
-  was the first; the pipeline works for any streamer).
+- **Niche:** Faceless viral moments cut from Kick.com streamer VODs. **Larry
+  Wheels** is a streamer we clip (first source); the pipeline works for any
+  streamer, so Mr.GHCLIPS can run multiple streamers' best moments.
 - **Format:** Blurred vertical canvas + sharp centered inset, big title box at the
   blur/frame seam, editorial line above dynamic captions, KICK branding + URL
   overlay. Cut on complete thoughts — hook → payoff, never mid-sentence.

@@ -12,10 +12,25 @@ Remove tactics that stop working. Cite the evidence.
   the internet", "...you won't believe #1").
 - _[add per-channel winners]_
 
-## Topic lanes (avoid overlap between the two ranking channels)
-- **Ranked Chaos:** general viral fails / chaos.
-- **Channel 3:** _[locked niche once confirmed]_.
-- **Larry Wheels:** streamer viral moments / feats / drama / funny guest bits.
+## Topic lanes — LOCKED from 2026-08-08 analytics
+- **Mr.GHCLIPS (Ch1):** strength feats + emotional coach/mentor stories + Larry
+  humbled. ✅ winners 10–22K. ❌ NO political skits, NO generic celeb interviews.
+- **Ranked Chaos (Ch2):** funny fails/pranks/chaos ONLY. ✅ pranks 27.7K, waterslide
+  24.5K. ❌ NO gym fails (1.7K flop), NO glow-ups/fragrance/pressure-washing/planets/
+  AI/autotune — those do NOT belong here. Serialize winners (Part 2/3/4).
+- **Real Voice or Autotune (Ch3):** raw vs autotuned vocal A/B. ✅ every video
+  1.8–6K, zero flops. Lead with LEGENDS (Freddie, Whitney, Mariah, Michael Jackson).
+  Move any autotune videos off Ranked Chaos to here.
+
+## Winners to serialize NOW (Part 2+)
+- Ranked Chaos: Prank Moments (27.7K) → Part 4; Waterslide (24.5K) → Part 2.
+- Mr.GHCLIPS: coach emotional stories (22K/18K) + strength records (18.9K/14.2K).
+- Real Voice or Autotune: legendary vocalists (Freddie/Whitney tier).
+
+## Packaging rules (from failures)
+- Every title carries a real ranking keyword. NO duplicate "DON'T CHECK THE SOUND".
+- Ranking videos require a **scene-specific `*_labels.tsv`** — never ship generic
+  fallback labels ("So close / Nailed it").
 
 ## Formats & series
 - Turn any winner into Part 2 / Part 3 (retention + subscribe reason).
