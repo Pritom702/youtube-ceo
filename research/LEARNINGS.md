@@ -83,5 +83,22 @@ Data: `analytics/2026-08-08_all_channels.md`.
   - Pick topics from **outliers**, titles from **keyword score**; clone shapes not
     clips. Validate niche across 0–10k/10k–100k/100k+ tiers. Pillar/cluster/bridge.
   - **200+ published Shorts** correlates with sustained growth → reinforces volume.
+## 2026-08-08 — Ch1 is a COMBAT-SPORTS channel (owner correction)
+- **Mr.GHCLIPS = combat sports / athletic action ONLY** (MMA, boxing, street fights,
+  knockouts, gym beasts / strength feats, ninja-warrior fails, viral action clips,
+  Larry Wheels). Owner's channel description confirms it. See memory
+  mrghclips-channel-identity. Gaming/variety/gambling = OFF-BRAND.
+- **Mistake to not repeat:** picked xQc's Cobblemon *gaming* tournament for a "more
+  views" batch — 5 clips rendered clean but were entirely off-brand → SCRAPPED.
+  "Other streamer than Larry" means other COMBAT/athletic streamers (Ryan Garcia,
+  Rampage, MMA fighters), never a big streamer whose content isn't combat/action.
+- **Pipeline 1 gotcha — 160p→1080p time drift:** discovery-pass (scout) timestamps
+  drift up to ~40s from true VOD time. Set final clip windows from the FULL
+  `work/stream.srt` timestamps (accurate), not the ranked-candidate list. Cost a re-pull.
+- **New-streamer onboarding checklist:** add to CHANNELS (crop+overlay), generate
+  `url_<name>.png`, map `CLIP_CHANNEL` (unknown cids default to georgiopoullas → wrong
+  KICK URL burned in). xQc is now onboarded.
+- Avoid gambling/slots segments entirely (demonetization) even on non-gambling streamers.
+
 - _Next research pass: pull current Shorts trend shifts, competitor outlier
   medians (e.g. @EverythingRankedYT ~191K), and format changes to apply tomorrow._

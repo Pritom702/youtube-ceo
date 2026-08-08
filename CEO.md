@@ -26,7 +26,7 @@ within 90 days of its start, so each gets monetized.**
 
 | # | Channel | Niche | Pipeline | Home |
 |---|---------|-------|----------|------|
-| 1 | **Mr.GHCLIPS** | Kick-streamer viral moments, faceless clips (Larry Wheels + other streamers) | Pipeline 1 (`/kick-shorts`) | `T:\Youtube Shorts` |
+| 1 | **Mr.GHCLIPS** | **Combat sports & athletic action**: MMA/boxing/street fights, knockouts, gym beasts + strength feats, ninja-warrior fails, viral action clips (Larry Wheels is a staple). Faceless. NOT gaming/variety. | Pipeline 1 (`/kick-shorts`) | `T:\Youtube Shorts` |
 | 2 | **Ranked Chaos** | Viral ranking / fails / chaos compilations (RankZilla format) | Pipeline 2 (`/ranking-short`) | `T:\Youtube Shorts 2` |
 | 3 | **Real Voice or Autotune** | Music: raw vocal vs autotuned A/B "which is real?" (NOT ranking) | Pipeline 2 (`make_autotune.py`) | `T:\Youtube Shorts 2` |
 
