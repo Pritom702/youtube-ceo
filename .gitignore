@@ -1,6 +1,10 @@
 # raw competitor/QC video downloads (keep the .jpg contact sheets + .md analysis)
 reviews/**/*.mp4
 reviews/_pepe_top.mp4
+# mobile trigger secrets + runtime logs (keep token.txt.example)
+mobile_trigger/token.txt
+mobile_trigger/logs/
+
 # junk
 Thumbs.db
 Desktop.ini
